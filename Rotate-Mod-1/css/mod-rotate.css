@@ -1,0 +1,58 @@
+#rotate{
+	width:945px;
+	height:380px;
+	position:relative;
+}
+#rotate p.slides_container{
+	width:945px;
+	height:275px;
+}
+#rotate p.nav{
+	width:100%; 
+	height:50px;
+	display:block;
+	position:relative;
+}
+#rotate a.prev,a.next{
+	position:absolute;
+	z-index:1;
+	bottom:14px;
+	border-bottom:14px solid transparent;
+	border-top:14px solid transparent;
+	font-size:0;
+}
+#rotate a.next{
+	border-left:14px solid #666;
+	right:14px;
+}
+#mod-rotate a:hover.next {
+	border-left:14px solid #fff;
+}
+#rotate a.prev{
+	border-right:14px solid #666;
+	left:14px;
+}
+#mod-rotate a:hover.prev{
+	border-right:14px solid #fff;
+}
+#rotate ul.pagination{
+	bottom:1em;
+	left:400px;
+	position:absolute;
+}
+#rotate ul.pagination li{
+	list-style:none;
+	float:left;
+	padding:2px;
+}
+#rotate ul.pagination li a{
+	border-radius:50%;
+	width:18px;
+	height:18px;
+	display:block;
+	background:#666;
+	font-size:0;
+}
+#rotate ul.pagination li.current a{
+	background:#fff;
+}

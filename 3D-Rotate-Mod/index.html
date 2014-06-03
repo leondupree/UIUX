@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+		<script type="text/javascript" src="js/jquery.gallery.js"></script>
+    </head>
+    <body>
+    
+			<section id="dg-container" class="dg-container">
+				<div class="dg-wrapper">
+					<a href="#"><img src="images/5.jpg" alt="image05"><div>Hello this is a test.</div></a>
+					<a href="#"><img src="images/6.jpg" alt="image06"><div>Some other test is here</div></a>
+					<a href="#"><img src="images/7.jpg" alt="image07"><div>and last slide rotates to 1st</div></a>
+				</div>
+				<nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+			</section>
+      
+		
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+		</script/>
+    </body>
+</html>

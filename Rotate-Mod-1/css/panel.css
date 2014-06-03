@@ -1,0 +1,22 @@
+.panel{
+	list-style-type:none;
+	clear:both;
+	width:100%;
+	height: 100%;
+	margin:0;
+	display:block;
+	position:inherit;
+}
+.panel li.mod{
+	background:#fff;
+	border:1em solid rgba(255,255,255,.7);
+	box-shadow:.1em .2em .2em #999;
+	margin: 0 1em 2em 1em;
+	border-collapse:collapse;
+}
+.panel li.left{
+	float:left;
+}
+.panel li.right{
+	float: right;
+}
